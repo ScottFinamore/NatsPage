@@ -203,9 +203,9 @@ table.tb {
 
 div .phoneblock {
     align-content: center;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    width: 100%; /* Table takes full width of the parent container */
+    max-width: 100%; /* Table won't exceed the width of the parent container */
+    border-collapse: collapse;
 }
 
 .form1 {
